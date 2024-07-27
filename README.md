@@ -19,7 +19,7 @@ La estructura de directorios de este proyecto es la siguiente:
 - **constants.py**: Constantes utilizadas en el sitio.
 - **styles**: Directorio de estilos (CSS, colores y fuentes).
 - **views**: Directorio de vistas (secciones gráficas).
-- **assets**: Recursos gráficos y utilidades JavaScript (cuenta atrás).
+- **assets**: Recursos gráficos y utilidades.
 - **rxconfig.py**: Configuración principal del proyecto (por defecto).
 - **requirements.txt**: Dependencias del proyecto para su ejecución.
 - **[generado] public**: Empaquetado estático del proyecto que se despliega en producción (HTML, CSS, JS e imágenes).
@@ -45,14 +45,14 @@ Para clonar este repositorio, puedes utilizar los siguientes comandos en tu term
    ```bash
    reflex run
 
-# Agradecimientos
+## Agradecimientos
 
 Quiero agradecer especialmente a mouredev, quien ha sido mi mentor durante todo mi proceso de aprendizaje en el desarrollo de webs con Reflex. Puedes visitar su canal de YouTube y su lista de reproducción de Python para más recursos y tutoriales:
 
 - [Canal de YouTube de mouredev](https://www.youtube.com/@mouredev)
 - [Lista de reproducción de Python](https://www.youtube.com/playlist?list=PLNdFk2_brsRdgQXLIlKBXQDeRf3qvXVU_)
 
-# Contribuciones
+## Contribuciones
 
 Este es un proyecto de prueba, pero las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna sugerencia, por favor abre un issue o un pull request.
 
