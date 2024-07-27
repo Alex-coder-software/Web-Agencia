@@ -14,6 +14,7 @@ Durante el desarrollo de esta web, he intentado seguir las mejores prácticas po
 
 La estructura de directorios de este proyecto es la siguiente:
 
+```plaintext
 /agencia_web
   /styles
   /components
