@@ -14,15 +14,15 @@ Durante el desarrollo de esta web, he intentado seguir las mejores prácticas po
 
 La estructura de directorios de este proyecto es la siguiente:
 
-**el_partido_del_amo**: Código fuente principal.
-**el_partido_del_amo.py**: Archivo principal del sitio web.
-**constants.py**: Constantes utilizadas en el sitio.
-**styles**: Directorio de estilos (CSS, colores y fuentes).
-**views**: Directorio de vistas (secciones gráficas).
-**assets**: Recursos gráficos y utilidades JavaScript (cuenta atrás).
-**rxconfig.py**: Configuración principal del proyecto (por defecto).
-**requirements.txt**: Dependencias del proyecto para su ejecución.
-**[generado] public**: Empaquetado estático del proyecto que se despliega en producción (HTML, CSS, JS e imágenes).
+- **agencia_web**: Código fuente principal.
+- **agencia_web.py**: Archivo principal del sitio web.
+- **constants.py**: Constantes utilizadas en el sitio.
+- **styles**: Directorio de estilos (CSS, colores y fuentes).
+- **views**: Directorio de vistas (secciones gráficas).
+- **assets**: Recursos gráficos y utilidades JavaScript (cuenta atrás).
+- **rxconfig.py**: Configuración principal del proyecto (por defecto).
+- **requirements.txt**: Dependencias del proyecto para su ejecución.
+- **[generado] public**: Empaquetado estático del proyecto que se despliega en producción (HTML, CSS, JS e imágenes).
 
 ### Clonación del Repositorio
 
@@ -30,19 +30,20 @@ Para clonar este repositorio, puedes utilizar los siguientes comandos en tu term
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/el_partido_del_ano.git
+   git clone https://github.com/tu-usuario/web-agencia.git
 2. Navega al directorio del proyecto:
    ```bash
-   cd el_partido_del_ano
-3. Instala las dependencias:
+   cd agencia-web
+3. Crear y activar un entorno virtual
+   ```bash
+   python -m venv env
+   source .venv/bin/activate  # En Windows usa `.venv\Scripts\activate`
+4. Instala las dependencias:
    ```bash
    pip install -r requirements.txt
-4. Ejecuta el proyecto:
+5. Ejecuta el proyecto:
    ```bash
    reflex run
-4. Genera el sitio estático:
-   ```bash
-   sh build.sh
 
 # Agradecimientos
 
