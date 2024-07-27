@@ -14,37 +14,35 @@ Durante el desarrollo de esta web, he intentado seguir las mejores prácticas po
 
 La estructura de directorios de este proyecto es la siguiente:
 
-```plaintext
-/agencia_web
-  /styles
-  /components
-  /views
-/assets
-constants.py
-agencia_web.py
-```plaintext
+**el_partido_del_amo**: Código fuente principal.
+**el_partido_del_amo.py**: Archivo principal del sitio web.
+**constants.py**: Constantes utilizadas en el sitio.
+**styles**: Directorio de estilos (CSS, colores y fuentes).
+**views**: Directorio de vistas (secciones gráficas).
+**assets**: Recursos gráficos y utilidades JavaScript (cuenta atrás).
+**rxconfig.py**: Configuración principal del proyecto (por defecto).
+**requirements.txt**: Dependencias del proyecto para su ejecución.
+**[generado] public**: Empaquetado estático del proyecto que se despliega en producción (HTML, CSS, JS e imágenes).
 
 ### Clonación del Repositorio
 
 Para clonar este repositorio, puedes utilizar los siguientes comandos en tu terminal:
 
-```sh
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/agencia-web-futsal.git
-
-# Navegar al directorio del proyecto
-cd agencia-web-futsal
-
-# Crear y activar un entorno virtual
-python -m venv env
-source env/bin/activate  # En Windows usa `env\Scripts\activate`
-
-# Instalar las dependencias
-pip install -r requirements.txt
-
-# Ejecutar la aplicación
-reflex run
-```sh
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/el_partido_del_ano.git
+2. Navega al directorio del proyecto:
+   ```bash
+   cd el_partido_del_ano
+3. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+4. Ejecuta el proyecto:
+   ```bash
+   reflex run
+4. Genera el sitio estático:
+   ```bash
+   sh build.sh
 
 # Agradecimientos
 
@@ -55,4 +53,8 @@ Quiero agradecer especialmente a mouredev, quien ha sido mi mentor durante todo 
 
 # Contribuciones
 
-Las contribuciones y aportaciones son bienvenidas. Si te gusta este proyecto, por favor, dale una estrella (⭐) para apoyarme. ¡Gracias!
+Este es un proyecto de prueba, pero las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna sugerencia, por favor abre un issue o un pull request.
+
+Si te gusta este proyecto, por favor, dale una estrella (⭐) para apoyarme. ¡Gracias!
+
+Una vez más muchas gracias a [MoureDev](https://github.com/mouredev/mouredev) por permitirme aprender sobre programación de manera fácil, amena y gratis, recomiendo encarecidamente que te des una vuelta por su increíble canal
