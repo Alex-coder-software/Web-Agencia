@@ -22,6 +22,7 @@ La estructura de directorios de este proyecto es la siguiente:
 /assets
 constants.py
 agencia_web.py
+```plaintext
 
 ### Clonación del Repositorio
 
@@ -43,6 +44,7 @@ pip install -r requirements.txt
 
 # Ejecutar la aplicación
 reflex run
+```sh
 
 # Agradecimientos
 
